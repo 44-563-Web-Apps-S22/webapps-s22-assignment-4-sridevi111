@@ -28,3 +28,17 @@ h6.name {
 .Orgon {
     color:darkseagreen;
 }
+table, th, td {
+    border:1px solid palevioletred;
+  }
+th, td {
+    border: 1px solid #4dd0e1;
+}
+table {
+    border: 1px solid white;
+}
+tbody tr:nth-child(odd) {
+    background-color: rgb(233, 75, 212);
+    margin: 2px;
+    padding: 2px;
+ }
